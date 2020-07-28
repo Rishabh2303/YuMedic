@@ -1,0 +1,230 @@
+<html>
+<body>
+<head>
+<title>Yumedic Appointment</title>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+<style>
+h1 {
+    color: grey;
+    text-align: center;
+   }
+hr.solid {
+          border-top: 3px solid;
+          color:grey;
+         }
+h3{
+     text-align:left;
+     font-size:90%;
+     color:rgb(0,134,117);
+    }
+.alignright { 
+             text-align:right;
+            }
+.alignleft {
+             text-align:left; 
+           }
+.formRight select { 
+    font-size:175%;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    height: 50px;
+    margin: 0 0 0 25px;
+    padding: 10px;
+    width: 200px;
+}
+div.b {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 120px;
+  color: rgb(0,0,0);
+ text-align: right;
+} 
+.table {                                                                                             
+    margin: 0 auto;
+    width: 80%;
+}
+.fa {
+ position; absolute;
+  right: 0px;
+  padding: 20px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+                                                                                                            <!-- css ends here -->
+</style>
+
+</head>
+<div class="page-header">
+<nav class="navbar navbar-white ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+    <img src="0.png"/>                                                                          <!-- yumedic logo -->
+    </div>
+     <ul class="nav navbar-nav navbar-right">
+<li><a href="#">Dr Name Surname</a></li>                                  <!-- link to the doctor's profile -->
+      </ul>
+  </div>
+</nav>
+</div>
+
+
+
+
+<p class="formRight">                                                                                            <!-- right side doc information card-->
+ <select id="leadType" class="box2" name="lead_type">
+        <option value="1">dd/mm/yy</option>
+        <option value="2">dd/mm/yy</option>
+        <option value="3">dd/mm/yy</option>
+    </select>
+</p>
+
+<ul class="nav navbar-nav navbar-right"> 
+<div class="card mb-3" style="max-height: 50px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="1.png" class="card-img">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Dr Name Surname</h5>
+        <p class="card-text">time</p>
+        <p class="card-text"><small class="text-muted">Locality, City, Zip Code</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+      </ul>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <h1>Upcoming Appointments</h1>
+  </div>
+</div>
+
+                                                                                                                         <!--appointment table-->
+
+<table class="table table-hover" style="width:90%;">
+  <thead bgcolor="lightgrey">
+    <tr>
+      <th scope="col">SLOT</th>
+      <th scope="col">PATIENT NAME</th>
+      <th scope="col">CLINIC</th>
+      <th scope="col">STATUS</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td>10:00 AM</td>
+      <td>Name Surname</td>
+      <td>Address</td>
+      <td><button>DONE</button></td>
+    </tr>
+<tr>
+      <td>10:00 AM</td>
+      <td>Name Surname</td>
+      <td>Address</td>
+      <td><button>DONE</button></td>
+    </tr>
+<tr>
+      <td>10:00 AM</td>
+      <td>Name Surname</td>
+      <td>Address</td>
+      <td><button>DONE</button></td>
+    </tr>
+<tr>
+      <td>10:00 AM</td>
+      <td>Name Surname</td>
+      <td>Address</td>
+      <td><button>DONE</button></td>
+    </tr>
+<tr>
+      <td>10:00 AM</td>
+      <td>Name Surname</td>
+      <td>Address</td>
+      <td><button>DONE</button></td>
+    </tr>
+<tr>
+      <td>10:00 AM</td>
+      <td>Name Surname</td>
+      <td>Address</td>
+      <td><button>DONE</button></td>
+    </tr>
+<tr>
+      <td>10:00 AM</td>
+      <td>Name Surname</td>
+      <td>Address</td>
+      <td><button>DONE</button></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+
+                                                                                                                                    <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© YuMedic 2020  
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+  </div>
+                                                                                                                         <!-- Copyright -->
+
+</footer>
+                                                                                                                      <!-- Footer -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
